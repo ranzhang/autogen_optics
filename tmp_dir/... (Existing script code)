@@ -1,0 +1,24 @@
+# ... (Existing script code) ...
+
+# Load device information from routers.csv
+devices = load_devices("routers.csv")
+
+# Iterate through each device
+for device in devices:
+    # Generate commands dynamically
+    for x in range(0, N):  # Assuming N is the maximum value of x
+        commands = [
+            f"show controller optics 0/0/0/{x}",
+            f"show controller CoherentDSP 0/0/0/{x}"
+        ]
+
+        # Connect to the device and execute commands
+        # ... (Code to connect and execute commands) ...
+
+        # Parse the output using instructions from optics_parse.txt
+        # ... (Code to parse output) ...
+
+        # Store the parsed data
+        # ... (Code to store data) ...
+
+# ... (Rest of the script) ...

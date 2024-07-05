@@ -1,0 +1,7 @@
+This document provides best practices instructions on how to interpret optics outputs and make recommendations.
+
+1. Controller state: desired states are Up, In Service
+2. Alarms: desired if there is no alarm. If there are alarms, report them, raise concerns based on the severity of alarms
+3. Q margin: best if above 1
+
+report other statistics and raise flags if there are concerns
