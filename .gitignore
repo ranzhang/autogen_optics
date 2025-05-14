@@ -124,6 +124,10 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+routers.csv
+tmp_dir/optics_data.json
+tmp_dir/optics_recommendations.json
+.cache
 
 # Pyre type checker
 .pyre/
